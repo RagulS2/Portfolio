@@ -41,6 +41,7 @@
     width:100%;
     height:100%;
 } 
+
 .home_img img{
     padding-top: 60px;
     margin-bottom: 30px;
@@ -86,19 +87,24 @@ font-weight: bold;
 }
 .icon{
     padding: 150px;
-    margin-left: 60px;
+    margin-left: -19px;
 
- 
 } 
+
+
 .icon i{
     padding-right: 11px;
     color:#1E3050;
 }
 .icon button{
     margin-top: 20px;
-    margin-left: 55px;
     font-weight: bold;
+    margin-left: 76px;
 }
+
+
+
+
 @media(max-width:768px){
    #home p{
     font-size: 25px;
@@ -115,10 +121,24 @@ font-weight: bold;
     }
 
 .home_img img {
-    padding-top: 85px;
+    padding-top: 0px;
 }
 }
-@media (min-width: 320px) and (max-width: 480px){
+
+
+
+@media (max-width:320px){
+    icon{
+        margin-left: 60px;
+        padding: 150px 0px 0px 0px;
+    }
+    .home_img img {
+        padding-top: 0;
+    }
+}
+
+
+/* @media (min-width: 320px) and (max-width: 480px){
 .icon a button {
     margin-top: -10px;
     margin-inline: auto;
@@ -128,10 +148,24 @@ font-weight: bold;
 }
 .icon {
     padding: 150px 0px 0px 0px;
+    margin-left: 100px;
+
 }
 
-
+.icon a button{
+    margin-left:10px;
+    margin-left: 37px;
+    margin-top: 10px;
 }
+} */
+@media(min-width:1024px){
+
+.icon {
+    
+    margin-left: -90px;
+}
+}
+
 /* ------------------------------------------------------------------------------------------- */
 /* about section */
 #about{
@@ -252,6 +286,16 @@ font-weight: bold;
     left:7%
 }
   }
+  @media screen and (max-width:320px){
+    .circle img{
+        top:-25%;
+        left:5%
+    }
+    .circle:hover {
+        height: 624px;
+    
+    }
+  }
  
   /* --------------------------------------------------------------------- */
 /* education section */
@@ -269,6 +313,7 @@ font-weight: bold;
   
     padding: 0px;
 }
+
  .tab-content .tab-pane .list:before {
     content: "";
     height: 90%;
@@ -352,7 +397,7 @@ font-weight: bold;
 } */
 @media (max-width: 768px){
 .tab-content .tab-pane .list {
-    margin-left:160px;
+    margin-left:112px;
 }
 .fa-location-dot::before {
     margin-left: 2px;
@@ -377,14 +422,38 @@ font-weight: bold;
 .fa-location-dot::before {
     margin-left: 1px;
 }
-    
+}@media(max-width:425px){
+
+.tab-content .tab-pane .list li .media .d-flex p {
+   
+    margin-left: -17px;
+    padding-top: 30px;
+}
+}
+@media (max-width: 320px){
+    .tab-content .tab-pane .list li .media .d-flex {
+        padding-top: 30px;
+        margin-left: -25px;
+} 
+.tab-content .tab-pane .list {
+    margin-left: 91px;
+}
+.tab-content .tab-pane .list li .media .d-flex p {
+    padding-top: 0px ;
 
 }
+}
 
+@media(max-width:1024px){
+
+    .tab-content{
+margin-left: -94px;
+}
+}
 /* ----------------------------------------------------------------------- */
 /* skill section */
 
-
+/* 
 #skills {
     background-color: #186463;
     height: auto;
@@ -425,6 +494,16 @@ color: orange;
     padding-left: 4rem!important;
 }
 }
+@media (max-width: 320px){
+    .card {
+       margin-left: -30px !important;
+        width: 16em !important;
+        height: 350px !important;
+    }
+}
+ */
+
+
 /* project section */
 #project{
     padding-top: 100px;
@@ -482,15 +561,36 @@ color: orange;
 
 }
 }
+
+/* @media (min-width:375px){
+    .project img{
+width: 330px;
+margin-left: 20px;
+    }
+
+#project .sec img {
+width: 330px;
+margin-left: 20px;
+}
+} */
+@media (max-width: 1024px){
+    #project img {
+margin-left: 75px;
+}
+.con{
+    margin-left: 60px;
+}
+}
 @media (max-width: 425px){
 #project img {
-    width: 370px;
-    margin-left: 10px;
-}
+    width: 330px;
+    margin-left: 20px;
+} 
 #project .sec img { 
-    width: 370px;
-    margin-left: 10px;
+    width: 330px;
+    margin-left: 20px;
 }
+
 .con h5{
    font-size: 19px;
     margin-left: -98px;    
@@ -501,6 +601,22 @@ color: orange;
 }
 
 }
+@media (max-width: 320px){
+    #project img {
+        width:260px;
+        margin-left: 35px;
+    }
+    #project .sec img { 
+        width: 260px;
+        margin-left: 35px;
+    }
+    #project{
+        padding-top: 40px;
+    }
+}
+
+
+
 /* ---------------------------------------
 contact session */
 
@@ -542,19 +658,21 @@ form{
     margin-left: 15PX;
 }
 }
-@media (max-width: 425px){
-    button{
-margin-left:300px;
-    }
 
+
+@media (max-width:425px){
+  
+    #contact .map {
+        padding-left: 51px;
+    }
  .map iframe{
    
-    width: 350px;
+    width: 350px ;
 
-    margin-left: -36px;
+    margin-left: -30px;
 }
  #contact button{
-    margin-left:110px;
+    margin-left:66px;
 }
 form{
     margin-left: 25PX;
@@ -563,6 +681,32 @@ form{
 } 
 }
 
+/* @media (max-width: 1024px){
+#contact .map {
+    padding-left:50px;
+}
+} */
+@media (max-width: 320px){
+    #contact .map{
+        padding-left: 42px;
+    }
+    .map iframe{
+   
+        width: 290px;
+        margin-left: -28px;
+    }
+    #contact button{
+        margin-left:48px;
+    }
+}
+@media (max-width: 1024px){
+#contact .map {
+    padding-left: 42px;
+}
+form{
+    margin-left: 56px;
+}
+}
 
 footer  a{
     font-weight: bold;
@@ -571,4 +715,76 @@ footer  a{
 footer .mb-4{
 margin-top: 18PX;
 }
+}
+
+#skill .mention #color1 {
+    display: inline-block;
+    background-color: #3A823D;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+#skill .mention #color2 {
+    display: inline-block;
+    background-color: #90AB42;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+#skill .mention #color3 {
+    display: inline-block;
+    background-color: #C2BD40;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+#skill .mention{
+        margin-top: 135%;
+        margin-left: -138%;
+    }
+    #skill p{
+        font-weight: bold;
+    }
+#skill svg{
+    
+    /* box-shadow: 5px 10px 10px rgba(0,0,0,0.7); */
+        margin-left: 15%;
+    
+}
+
+#skill .align{
+    margin-top: 111px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px){
+#skill svg {
+    margin-left: 36%;
+    margin-top: 7px;
+}
+}
+@media (max-width: 425px){
+    #skill svg {
+        margin-left: 0%;
+        margin-top: 0%;
+        height: 300px;
+        width: 300px;
+    }
+    #skill .mention{
+        margin-top: -24%;
+        margin-left: 57%;
+
+    }
+    
+
+}
+
+@media (max-width: 425px){
+    #skill .mention{
+        font-size:13px;
+        margin-top: -30%;
+        margin-left: 62%;
+
+    }
+    
 }
