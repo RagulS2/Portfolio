@@ -27,14 +27,6 @@
     height: 55px;
     width: 183px;
 }
-@media screen and (max-width:768px) { 
-
-#logo img {
-    height: 55px;
-    width: 183px;
-    margin-bottom: -55px;
-}
-}
 /* -------------------------------------------------- */
 /* home section */
  section{
@@ -43,9 +35,9 @@
 } 
 
 .home_img img{
-    padding-top: 60px;
-    margin-bottom: 30px;
-    width: 100%;
+        padding-top: 60px;
+        margin-bottom: 30px;
+        width: 100%;
 }
 
 #home p{
@@ -87,11 +79,9 @@ font-weight: bold;
 }
 .icon{
     padding: 150px;
-    margin-left: -19px;
+    margin-left: 8px;
 
 } 
-
-
 .icon i{
     padding-right: 11px;
     color:#1E3050;
@@ -102,69 +92,6 @@ font-weight: bold;
     margin-left: 76px;
 }
 
-
-
-
-@media(max-width:768px){
-   #home p{
-    font-size: 25px;
-   }
-   #home span{
-    font-size: 25px;
-   }
-    .icon{
-        padding: 150px 0px;
-        margin-left:90px;   
-    } 
-    .icon a button{
-        margin-left:20px
-    }
-
-.home_img img {
-    padding-top: 0px;
-}
-}
-
-
-
-@media (max-width:320px){
-    icon{
-        margin-left: 60px;
-        padding: 150px 0px 0px 0px;
-    }
-    .home_img img {
-        padding-top: 0;
-    }
-}
-
-
-/* @media (min-width: 320px) and (max-width: 480px){
-.icon a button {
-    margin-top: -10px;
-    margin-inline: auto;
-}
-.home_img img {
-    padding-top: 0;
-}
-.icon {
-    padding: 150px 0px 0px 0px;
-    margin-left: 100px;
-
-}
-
-.icon a button{
-    margin-left:10px;
-    margin-left: 37px;
-    margin-top: 10px;
-}
-} */
-@media(min-width:1024px){
-
-.icon {
-    
-    margin-left: -90px;
-}
-}
 
 /* ------------------------------------------------------------------------------------------- */
 /* about section */
@@ -181,7 +108,7 @@ font-weight: bold;
     padding-bottom: 15px;
     margin-top: -13px;
     color:#2C7348;
-    /* font-weight: bold; */
+    
   }
   .circle{
   width: 400px;
@@ -240,63 +167,6 @@ font-weight: bold;
     font-weight: bold;
   }
   
-  @media screen and (max-width:425px) {  
-  .circle{      
-  margin-bottom: 3%;
-  margin-top: 8%;
-
-  }
-    .circle:hover img {
-       display: none;
-    }
-  .circle:hover{
-      
-    height:auto;
-    
-  }
-  .circle .content{
-    font-size:15px;
-  }
-  .circle:hover .content {
-  
-    width: 90%;
-    top: 10%;
-    left: 5%;
-}
-  }  
-
-
-
-
-  @media screen and (max-width:768px) {  
-.circle:hover {
-    height: 500px;
-
-}
-.circle:hover .content{
-    top:15%;
-    right:3%
-
-}
-.content{
-    font-size: 15px;
-}
-.circle:hover img{
-    top:6%;
-    left:7%
-}
-  }
-  @media screen and (max-width:320px){
-    .circle img{
-        top:-25%;
-        left:5%
-    }
-    .circle:hover {
-        height: 624px;
-    
-    }
-  }
- 
   /* --------------------------------------------------------------------- */
 /* education section */
 
@@ -390,121 +260,54 @@ font-weight: bold;
     background-color: white;
     height:650px;
 }
-/* @media (min-width: 1200px){
-.container {
-    max-width: 1170px;
-}
-} */
-@media (max-width: 768px){
-.tab-content .tab-pane .list {
-    margin-left:112px;
-}
-.fa-location-dot::before {
-    margin-left: 2px;
-}
-}
-@media(max-width:425px){
-    .tab-content{
-        margin-left: -35%;
-    }
-   
-    .tab-content .tab-pane .list li .media .d-flex {
-        padding-right: 30px;
-} 
-.tab-content .tab-pane .list li .media .d-flex p {
-    font-size:14px;
-}
-.tab-content .tab-pane .list li .media .media-body h4 {
-  
-    font-size: 14px;
-    padding-top: 31px;
-}
-.fa-location-dot::before {
-    margin-left: 1px;
-}
-}@media(max-width:425px){
 
-.tab-content .tab-pane .list li .media .d-flex p {
-   
-    margin-left: -17px;
-    padding-top: 30px;
-}
-}
-@media (max-width: 320px){
-    .tab-content .tab-pane .list li .media .d-flex {
-        padding-top: 30px;
-        margin-left: -25px;
-} 
-.tab-content .tab-pane .list {
-    margin-left: 91px;
-}
-.tab-content .tab-pane .list li .media .d-flex p {
-    padding-top: 0px ;
-
-}
-}
-
-@media(max-width:1024px){
-
-    .tab-content{
-margin-left: -94px;
-}
-}
 /* ----------------------------------------------------------------------- */
 /* skill section */
-
-/* 
-#skills {
-    background-color: #186463;
-    height: auto;
-    width:100%;
-    padding-top: 80px;
-    padding-bottom: 50px;
+#skill .mention #color1 {
+    display: inline-block;
+    background-color: #3A823D;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
 }
-.card-body h5{
-    color: #2C7348;
-    font-weight: bold;
+#skill .mention #color2 {
+    display: inline-block;
+    background-color: #90AB42;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
 }
-.checked{
-color: orange;
+#skill .mention #color3 {
+    display: inline-block;
+    background-color: #C2BD40;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
 }
-.card{
-    color:grey;
-    box-shadow: 15px 20px 10px rgba(0,0,0,0.4);
-  
+#skill .mention {
+    font-size: 20px;
+    margin-top: 181%;
+    margin-left: -80%;
 }
-.card:hover{
-    transform: scale(1.06); 
-    color: black;
-}
-.card i{
-    color:#737BFA;
-}
-
-@media (max-width: 768px){
-    .card{
-        margin-left: -20px !important;  
-        width: 21em !important; 
-        height: 300px !important;
+    #skill p{
+        font-size: 14px;
+        font-weight: 500;
     }
+#skill svg{
+    
+    box-shadow: 5px 10px 10px rgba(0,0,0,0.7);
+        margin-left: 15%;
     
 }
-@media (max-width: 425px){
-.ps-5 {
-    padding-left: 4rem!important;
-}
-}
-@media (max-width: 320px){
-    .card {
-       margin-left: -30px !important;
-        width: 16em !important;
-        height: 350px !important;
-    }
-}
- */
 
+#skill .align{
+    margin-top: 111px;
+    margin-bottom: 30px;
+}
 
-/* project section */
+/* 
+========================================================================
+project section  */
 #project{
     padding-top: 100px;
     margin-bottom:75px;
@@ -539,82 +342,6 @@ color: orange;
     margin-top: 25px;
     margin-left: 80px;
 }
-@media (max-width: 768px){
-     .con{
-            margin-left: 110px;
-            margin-top: 32PX;
-     }
-     #project img{
-        margin-left: 110px;
-     }
-     #project .sec img{
-        margin-left: 110px;
-     }
-
-     .con h5{
-        font-size: 20px;
-        
-    }
-    .con p{
-       
-        font-size: 17px;
-
-}
-}
-
-/* @media (min-width:375px){
-    .project img{
-width: 330px;
-margin-left: 20px;
-    }
-
-#project .sec img {
-width: 330px;
-margin-left: 20px;
-}
-} */
-@media (max-width: 1024px){
-    #project img {
-margin-left: 75px;
-}
-.con{
-    margin-left: 60px;
-}
-}
-@media (max-width: 425px){
-#project img {
-    width: 330px;
-    margin-left: 20px;
-} 
-#project .sec img { 
-    width: 330px;
-    margin-left: 20px;
-}
-
-.con h5{
-   font-size: 19px;
-    margin-left: -39px;    
-}
-.con p{ 
-    font-size: 16px;
-    margin-left: -39px
-}
-
-}
-@media (max-width: 320px){
-    #project img {
-        width:260px;
-        margin-left: 35px;
-    }
-    #project .sec img { 
-        width: 260px;
-        margin-left: 35px;
-    }
-    #project{
-        padding-top: 40px;
-    }
-}
-
 
 
 /* ---------------------------------------
@@ -640,151 +367,422 @@ contact session */
 #contact button:hover{
     box-shadow: 5px 10px 10px rgba(0,0,0,0.4);
 }
-@media (max-width: 768px){
-    button{
-margin-left:300px;
-    }
-
- .map iframe{
-   
-    width: 650px;
-
-    margin-left: -30px;
-}
-#contact button{
-    margin-left:250px;
-}
-form{
-    margin-left: 15PX;
-}
-}
 
 
-@media (max-width:425px){
-  
-    #contact .map {
-        padding-left: 51px;
-    }
- .map iframe{
-   
-    width: 350px ;
-
-    margin-left: -30px;
-}
- #contact button{
-    margin-left:66px;
-}
-form{
-    margin-left: 25PX;
-    margin-top:-40px
-
-} 
-}
-
-/* @media (max-width: 1024px){
-#contact .map {
-    padding-left:50px;
-}
-} */
-@media (max-width: 320px){
-    #contact .map{
-        padding-left: 42px;
-    }
-    .map iframe{
-   
-        width: 290px;
-        margin-left: -28px;
-    }
-    #contact button{
-        margin-left:48px;
-    }
-}
-@media (max-width: 1024px){
-#contact .map {
-    padding-left: 42px;
-}
-form{
-    margin-left: 56px;
-}
-}
+/* footer
+================================== */
 
 footer  a{
     font-weight: bold;
 }
-@media (max-width: 425px){
 footer .mb-4{
-margin-top: 18PX;
-}
-}
-
-#skill .mention #color1 {
-    display: inline-block;
-    background-color: #3A823D;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-}
-#skill .mention #color2 {
-    display: inline-block;
-    background-color: #90AB42;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-}
-#skill .mention #color3 {
-    display: inline-block;
-    background-color: #C2BD40;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-}
-#skill .mention{
-        margin-top: 135%;
-        margin-left: -138%;
+    margin-top: 18px;
     }
-    #skill p{
-        font-weight: bold;
+
+
+/* mobile response....
+======================================================= */
+@media (min-width: 320px) and (max-width: 480px){
+    .icon {
+        padding: 150px 0px;
+        margin-left: 60px;
     }
-#skill svg{
-    
-    /* box-shadow: 5px 10px 10px rgba(0,0,0,0.7); */
-        margin-left: 15%;
-    
-}
+    #home p {
+        font-size: 25px;
+    }
+    #home span{
+        font-size: 30px;
+    }
+    .home_img img {
+        padding-top: 0;
+    }
+    .icon a button {
+        margin-left: 35px;
+    }
 
-#skill .align{
-    margin-top: 111px;
-    margin-bottom: 30px;
-}
+ .circle img{
+        top:-32%;
+        left:12%;
+        height:300px
+    }
+    .circle:hover {
+        height: 624px;
+    
+    }
+   
+    .circle {
+        margin-bottom: 3%;
+        margin-top: 8%;
+        width: 300px;
+        height: 310px;
+    }
+          .circle:hover img {
+             display: none;
+          }
+        .circle:hover{
+            /* width: 500px; */
+            height: 550px;
+            border-radius: 3%;
+            margin-top: 10px;
+            transition: 1s;
+        }
+        .circle .content{
+          font-size:15px;
+        }
+        .circle:hover .content {
+        
+          width: 90%;
+          top: 10%;
+          left: 5%;
+      }
 
-@media (max-width: 768px){
+
+    .tab-content .tab-pane .list {
+        margin-left: -50px;
+    }
+
+
+    .tab-content .tab-pane .list:before {
+        left: 32%;
+
+    }
+    .tab-content .tab-pane .list li .media .d-flex {
+        padding-right: 25px;
+    }
+.tab-content .tab-pane .list li .media .d-flex p {
+    font-size:13px;
+    padding-top: 31px;
+}
+.tab-content .tab-pane .list li .media .media-body h4 {
+  
+    font-size: 14px;
+    padding-top: 31px;
+}
+.fa-location-dot::before {
+    margin-left: 19px;
+}
+#project img {
+    width: 275px;
+    margin-left: 15px;
+}
+    #project .sec img { 
+        width: 275px;
+        margin-left: 15px;
+    }
+    #project{
+        padding-top: 40px;
+    }
+    .con {
+        margin-left: 15px;
+    }
+    .con p {
+        font-size: 16px;
+    }
+    form {
+        margin-left: 8px;
+    }
+    .mt-5 {
+        margin-top: 0rem;
+    }
+    
+     #contact .map{
+        padding-left: 42px;
+    }
+    .map iframe {
+        width: 300px;
+        height: 300px;
+        margin-left: -33px;
+    }
+    #contact button{
+        margin-left:66px;
+    }
+ 
 #skill svg {
-    margin-left: 36%;
-    margin-top: 7px;
-}
-}
-@media (max-width: 425px){
-    #skill svg {
         margin-left: 0%;
         margin-top: 0%;
         height: 300px;
         width: 300px;
+      
     }
-    #skill .mention{
-        margin-top: -24%;
-        margin-left: 57%;
+    #skill .mention {
+     
+        margin-top: -40%;
+        margin-left: 70%;
+    }
+    #skill .mention #color1 {
+        
+        height: 15px;
+        width: 15px;
+    
+    }
+    #skill .mention #color2 {
+        
+        height: 15px;
+        width: 15px;
+    
+    }
+    #skill .mention #color3 {
+        
+        height: 15px;
+        width: 15px;
+    
+    }
+    #skill p{
+        font-size: 12px;
+        font-weight: 500;
+        margin-bottom: 0rem !important;
+    }
+}   
+/* 
+tab response..............
+======================================================== */
 
+@media (min-width: 768px) and (max-width: 1024px) {
+    #logo img {
+        height: 55px;
+        width: 183px;
+        
+    }
+       #home p{
+        font-size: 25px;
+       }
+       #home span{
+        font-size: 25px;
+       }
+        .icon{
+            padding: 150px 0px;
+            margin-left:90px;   
+        } 
+        .icon a button{
+            margin-left:20px
+        }
+    
+    .home_img img {
+        padding-top: 100px;
+    }
+    .circle:hover {
+        height: 500px;
+    
+    }
+    .circle:hover .content{
+        top:15%;
+        right:3%
+    
+    }
+    .content{
+        font-size: 15px;
+    }
+    .circle:hover img{
+        top:6%;
+        left:7%
+    }
+    .tab-content .tab-pane .list {
+        margin-left: 160px;
+    }
+    .fa-location-dot::before {
+        margin-left: 2px;
+    }
+    .tab-content .tab-pane .list li .media .d-flex {
+        padding-right: 66px;
+    }
+         .con{
+                margin-left: 110px;
+                margin-top: 32PX;
+         }
+         #project img{
+            margin-left: 170px !important;
+         }
+         #project .sec img{
+            margin-left: 170px !important;
+         }
+    
+         .con h5{
+            font-size: 20px;
+            
+        }
+        .con p{
+           
+            font-size: 17px;
+    
+    }
+    #skill svg {
+        margin-left: 22%;
+        margin-top: 7px;
     }
     
-
-}
-
-@media (max-width: 425px){
-    #skill .mention{
-        font-size:13px;
-        margin-top: -30%;
-        margin-left: 62%;
-
-    }
     
+    #skill .mention {
+        font-size: 8px;
+        margin-top: 145%;
+       margin-left: 25% !important;
+        }
+        button{
+    margin-left:300px;
+        }
+        #contact .map {
+            padding-left: 46px;
+        }
+    
+    .map iframe {
+            width: 735px;
+            margin-left: -30px;
+        } 
+    #contact button{
+        margin-left:250px;
+    }
+    form{
+        margin-left: 15PX;
+    }
+    #contact button {
+        margin-left: 300px;
+    }
 }
+    
+
+/* lap Response.............
+============================================================= */
+    @media (min-width: 1025px) and (max-width: 1280px){
+        .home_img img {
+            padding-top: 100px;
+        }
+        .icon button {
+            margin-top: -81px;
+        }
+        .icon{
+            margin-left: -35px;
+        }
+        .tab-content .tab-pane .list {
+            margin-left: 321px;
+            }
+            #skill .mention{
+                margin-top: 185%;
+                margin-left: -46%;
+            }
+            .con {
+                margin-left: 87px;
+        }
+        #contact .map {
+            padding-left: 40px;
+        }
+        .map iframe {
+            width: 555px ;
+            height: 380px ;
+            }
+            form {
+                margin-left: 0PX;
+            }
+            #contact button {
+                margin-left: 145px;
+            }
+        }
+
+        /* desktop response 
+        ============================================= */
+        @media (min-width: 1281px) {
+
+             #contact button {
+                margin-left: 200px; 
+            }
+            }
+        
+
+
+
+
+
+
+
+ /* iphone se.............
+ ====================================================== */
+@media (min-width: 375px) and (max-width: 667px){
+    .icon {
+       
+        margin-left: 93px !important;
+    }
+    .tab-content .tab-pane .list:before {
+        left: 26% !important;
+}
+#project img {
+    width: 310px !important;
+ 
+}
+    #project .sec img { 
+        width: 310px !important;
+       
+    }
+    .map iframe {
+        width: 350px !important; 
+        height: 350px !important;
+}
+#skill svg {
+    
+    width: 350px !important;
+
+}
+#skill .mention {
+    margin-top: -34% !important;
+    margin-left: 72% !important; 
+}
+.circle:hover {
+    height: 480px !important;
+
+}
+#contact button {
+    margin-left: 85px !important;
+}
+
+} 
+
+
+
+
+ @media (min-width: 375px) and (max-width: 480px){
+.fa-location-dot::before {
+    margin-left: 18px !important;
+}
+} 
+
+
+
+                        @media (min-width: 360px) and (max-width: 740px){
+
+                            .fa-location-dot::before {
+                                margin-left: 1px !important;
+                            } 
+                            #skill svg{
+                                box-shadow: none !important;
+                            }
+                            .map iframe {
+                                margin-left: -15px !important;
+                            }
+                        }   
+     @media (min-width: 375px) and (max-width: 480px){
+.fa-location-dot::before {
+    margin-left: 1px !important;
+}
+.map iframe {
+    margin-left: -15px !important;
+    width:330px !important;
+}
+}
+@media (min-width: 425px) and (max-width: 480px){
+.fa-location-dot::before {
+    margin-left: 1  px !important;
+}
+.map iframe {
+    margin-left: -15px !important;
+    width:360px !important;
+}
+}
+    
+
+
+
+
+
+
+
+
+
+
+
