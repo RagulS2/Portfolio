@@ -3,6 +3,7 @@
 *{
     padding: 0;
     margin: 0;
+    
 }
 /* -------------------------------------------------------------------------- */
  /* nav-section */
@@ -624,7 +625,7 @@ tab response..............
         }
     
     .map iframe {
-            width: 735px;
+            width: 600px;
             margin-left: -30px;
         } 
     #contact button{
@@ -634,7 +635,7 @@ tab response..............
         margin-left: 15PX;
     }
     #contact button {
-        margin-left: 300px;
+        margin-left: 180px;
     }
 }
     
@@ -665,7 +666,7 @@ tab response..............
             padding-left: 40px;
         }
         .map iframe {
-            width: 555px ;
+            width: 550px ;
             height: 380px ;
             }
             form {
@@ -777,10 +778,11 @@ tab response..............
     
 
 
-
-
-
-
+@media (min-width: 1025px) and (max-width: 1280px){
+.icon button {
+    margin-top: 10px !important;
+}
+}
 
 
 
